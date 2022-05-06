@@ -5,23 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio</title>
+    <style>
+        body {
+            background-color: #FFE8D6;
+            font-family: verdana;
+            color: rgb(0, 0, 0);
+            
+        }
+
+        .titulos {
+            text-align: center;
+            font-style: italic;
+        }
+
+        h1 {
+            font-family: georgia;
+            font-size: 40px;
+            color: rgb(77, 72, 72);
+        }
+
+        h2 {
+            font-size: 25px;
+        }
+
+       #destaque {
+           background-color: #DDBEA9;
+           text-decoration: underline;
+       }
+
+       .lista {
+            font-family: Verdana;
+            font-size: 15px;
+       }
+
+    </style>
 </head>
+
 <body>
-    <h1>Meu Portfólio!</h1>
-    <h2>Camila Wolter Cardoso</h2>
+    <h1 class="titulos">Meu Portfólio!</h1>
+    
     <img src="https://pbs.twimg.com/profile_images/1508459147343323137/nw0wnSeV_400x400.jpg" alt="Foto atual de Camila" id="foto">
-    <h2><br>Meu nome é Camila, mas podem me chamar de Camis, tenho 23 anos. Moro em São Lourenço do Sul - Rio Grande do Sul.
-        Sou formada em Engenharia Hídrica pela UFPel, e atualmente sou estudante de <em>Desenvolvimento Web na Trybe!</em></h2>
+
+    <h2 class="titulos">Camila Wolter Cardoso</h2>
+
+    <h3>Meu nome é Camila, mas podem me chamar de Camis, tenho 23 anos. Moro em São Lourenço do Sul - Rio Grande do Sul. Sou formada em Engenharia Hídrica pela UFPel, e atualmente sou estudante de <em id="destaque">Desenvolvimento Web na Trybe!</em></h3>
+
+        
         
         <hr>
-        <p><a href="#foto">Minha foto</a></p>
-        <p><a href="#habilidade">Principais Habilidades</a></p>
-        <p><a href="http://www.willtirando.com.br/" target="_blanck" id="blog">Blog Preferido</a></p>
-        <p><a href="https://www.linkedin.com/in/camila-wolter-cardoso-bb3686159/" target="_blank">Linkedin</a></p>
+            <p><a href="#foto">Minha foto</a></p>
+            <p><a href="#habilidade">Principais Habilidades</a></p>
+            <p><a href="http://www.willtirando.com.br/" target="_blanck" id="blog">Blog Preferido</a></p>
+            <p><a href="https://www.linkedin.com/in/camila-wolter-cardoso-bb3686159/" target="_blank">Linkedin</a></p>
         <hr>
+
+    
     
         <p id="habilidade"><strong><br>Habilidades que mais me orgulho</strong></p>
-    <ul>
+    <ul class="lista">
         <li>Flexibilidade</li>
         <li>Falar em público</li>
         <li>Pesquisa</li>
@@ -29,7 +70,7 @@
     </ul>
 
     <p><strong><br>Outras habilidade</strong></p>
-    <ul>
+    <ul class="lista">
         <li>Unix & Bash</li>
         <li>Git e GitHub</li>
         <li>HTML</li>
