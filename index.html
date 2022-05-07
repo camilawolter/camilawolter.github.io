@@ -5,92 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio</title>
-    <style>
-        body {
-            background-color: #ffffff;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 20px;
-            color: rgb(63, 58, 58); 
-        }
-
-        #titulos {
-            text-align: center;
-            font-style: italic;
-        }
-
-        h1 {
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-size: 40px;
-            text-decoration: underline;
-            color: rgb(0, 0, 0);
-        }
-
-        h2 {
-            font-size: 25px;
-        }
-
-       #destaque {
-           background-color: #FFE8D6;
-           text-decoration: underline;
-           border-radius: 3px;
-           line-height: 20px;
-
-       }
-
-       .lista {
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            font-size: 20px;
-       }
-
-       .button {
-        background-color:#B7B7A4;
-        color: white;
-        font-size: 20px;
-        text-decoration: none;
-        font-weight: 700;
-        line-height: 20px;
-        padding: 5px 10px;
-        border-radius: 4px;
-       }
-
-       #foto {
-        width: 200px;   
-        border-radius: 100px;
-       }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- Seção UM -->
-    <h1 id="titulos">Meu Portfólio!</h1>
-    
-    <img src="https://pbs.twimg.com/profile_images/1508459147343323137/nw0wnSeV_400x400.jpg" alt="Foto atual de Camila" id="foto">
+    <img src="https://pbs.twimg.com/profile_images/1508459147343323137/nw0wnSeV_400x400.jpg" alt="Foto de Camila" id="img"">
+   
+    <h1 id="titulos">Olá, sou a Camila!</h1>
 
-    <h2>Camila Wolter Cardoso</h2>
-
-    <p>Meu nome é Camila, mas podem me chamar de Camis, tenho 23 anos. Moro em São Lourenço do Sul - Rio Grande do Sul. Sou formada em Engenharia Hídrica pela UFPel, e atualmente sou estudante de <em id="destaque">Desenvolvimento Web na Trybe!</em></p>
+    <p id="intro">Meu nome é Camila Wolter, mas podem me chamar de Camis, tenho 23 anos. Moro em São Lourenço do Sul - Rio Grande do Sul. Sou formada em Engenharia Hídrica pela UFPel, e atualmente sou estudante de <em id="destaque">Desenvolvimento Web na Trybe!</em></p>
 
     <!-- Seção DOIS -->
-        <hr>
-            <p><a href="#foto" class="button">Minha foto</a></p>
-            <p><a href="#habilidade" class="button">Principais Habilidades</a></p>
-            <p><a href="http://www.willtirando.com.br/" target="_blanck" class="button" >Blog Preferido</a></p>
-            <p><a href="https://www.linkedin.com/in/camila-wolter-cardoso-bb3686159/" target="_blank" class="button">Linkedin</a></p>
-        <hr>
+       
+    <p><a href="#foto" class="button">Minha foto</a></p>
+    <p><a href="#habilidade" class="button">Principais Habilidades</a></p>
+    <p><a href="http://www.willtirando.com.br/" target="_blanck" class="button" >Blog Preferido</a></p>
+    <p><a href="https://www.linkedin.com/in/camila-wolter-cardoso-bb3686159/" target="_blank" class="button">Linkedin</a></p>
+    
+       
 
     
     <!-- Seção TRÊS -->
         <p id="habilidade"><strong><br>Habilidades que mais me orgulho</strong></p>
-    <ul class="lista">
+    <ul class="lista1">
         <li>Flexibilidade</li>
         <li>Falar em público</li>
         <li>Pesquisa</li>
         <li>Resolução de Problemas</li>
     </ul>
 
-    <p><strong><br>Outras habilidade</strong></p>
-    <ul class="lista">
+    <p id="outrashab"><strong><br>Outras habilidade</strong></p>
+    <ul class="lista2">
         <li>Unix & Bash</li>
         <li>Git e GitHub</li>
         <li>HTML</li>
