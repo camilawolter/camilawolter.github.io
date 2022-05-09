@@ -12,7 +12,7 @@ h1 {
     color: rgb(70, 68, 68);
     position: absolute;
     z-index: 2;
-    top: 220px;
+    top: 230px;
     left: 530px;
     
 }
@@ -76,15 +76,16 @@ h1 {
 }
 
 
-/* Fim do estilo do menu superior */
-
 #img {
     position: absolute;
     width: 200px;   
     border-radius: 100px;
-    left: 600px;
-    top: 45px;
+    left: 560px;
+    top: 20px;
     z-index: 1;
+    padding: 20px;
+    background-color: #CB997E;
+    
     
 }
 
